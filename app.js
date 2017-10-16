@@ -44,7 +44,7 @@
         }
         var http = new XMLHttpRequest();
         var apiKey = '75c8e6c6b3515f3a5c299a5dfc269ffb';
-        var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
+        var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
         var method = 'GET';
 
         http.open(method, url);
